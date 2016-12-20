@@ -1,0 +1,16 @@
+web:
+  image: gaurigshankar/nginx:latest
+  ports:
+    - "80:80"
+  expose:
+    - "80"
+  stdin_open: true
+  tty: true
+  links:
+    - app
+
+
+app:
+  image: gaurigshankar/node-web-app:latest
+  ports:
+    - "3000:3000"

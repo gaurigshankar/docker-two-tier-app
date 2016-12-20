@@ -1,0 +1,12 @@
+{
+  "name": "gauri_docker_web_app",
+  "version": "1.0.0",
+  "author": "Gauri Shankar P <gauri.gshankar@yahoo.co.in>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
